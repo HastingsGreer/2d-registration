@@ -1,0 +1,19 @@
+{
+    "model": {
+        "deformation": {
+            "compute_similarity_measure_at_low_res": false,
+            "use_map": true
+        },
+        "registration_model": {
+            "load_velocity_from_forward_model":true,
+            "spline_order": 1,
+            "type": "svf_map",
+            "env":{
+                "get_momentum_from_external_network":true,
+                "use_odeint":true,
+                "reg_factor":10.0
+                }
+          }
+        
+    }
+}
