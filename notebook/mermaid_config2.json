@@ -39,7 +39,7 @@
             "env":{
                 "get_momentum_from_external_network":true,
                 "use_odeint":true,
-                "reg_factor":1.0
+                "reg_factor":5.0
                 },
             "shooting_vector_momentum":{
                 "use_velocity_mask_on_boundary":false

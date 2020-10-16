@@ -9,11 +9,11 @@
             "spline_order": 1,
             "type": "svf_map",
             "env":{
-                "get_momentum_from_external_network":true,
+                "get_velocity_from_external_network":true,
                 "use_odeint":true,
-                "reg_factor":10.0
+                "reg_factor":1.0
                 }
           }
-        
+      
     }
 }
